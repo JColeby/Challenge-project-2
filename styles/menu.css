@@ -4,7 +4,22 @@ a {
   }
   
 header{
-    height:135px
+    height:135px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header h1{
+    margin: 0;
+    padding: 49px;
+}
+
+header .logo{
+    height: 115px;
+    width:175px;
+    background-color: #e7b315;
+    margin: 10px 10px 10px 10%;
 }
 
 nav {
@@ -13,6 +28,8 @@ nav {
     position: relative;
     height:65px;
     background: #f2c53d;
+    border-bottom: 2px solid #C15879;
+    border-top: 2px solid #C15879;
   }
 
 

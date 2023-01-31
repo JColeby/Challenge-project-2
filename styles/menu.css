@@ -52,8 +52,10 @@ nav {
   }
   
   #nav .menu-item:hover,
-  #nav .menu-item:focus-within {
-    background: red;
+  #nav .menu-item:focus-within 
+  #nav > .menu-item ul li ul:hover,
+  #nav > .menu-item  ul li ul:focus-within {
+    background: #f3be1d;
     cursor: pointer;
   }
   
@@ -62,7 +64,7 @@ nav {
   }
   
   #nav ul li ul {
-    background: orange;
+    background: #e7b315;
     visibility: hidden;
     opacity: 0;
     min-width: 5rem;
@@ -71,6 +73,8 @@ nav {
     margin-top: 1rem;
     left: 0;
     padding:auto 0;
+    width: 100%;
+    margin-top:25px;
   }
   
   #nav ul li:hover > ul,
@@ -86,6 +90,9 @@ nav {
     width: 100%;
   }
 
+  #nav ul li ul li:hover {
+    background: #eeb712;
+  }
 
   #to-top{
     display: block;

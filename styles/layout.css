@@ -13,11 +13,17 @@ body{
     grid-gap:20px;
     padding: 0;
     margin: 0;
+    background-image: url(../images/background/animation-blue-ocean-landscape-video-footage-089859057_prevstill.webp);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #head-nav{
     grid-area: header;
-    background-color: #AAA;
+    background-color: #EEE;
 }
 
 #nav{
@@ -28,25 +34,25 @@ body{
 
 #img-gallary{
     grid-area: img;
-    background-color: #AAA;
+    background-color: #ddd;
 }
 
 #gallary-description{
     grid-area: imgd;
-    background-color: #AAA;
+    background-color: #ddd;
 }
 
 #video{
     grid-area: vid;
-    background-color: #AAA;
+    background-color: #ddd;
 }
 
 #video-description{
     grid-area: vid-d;
-    background-color: #AAA;
+    background-color: #ddd;
 }
 
 #footer{
     grid-area: ft;
-    background-color: #AAA;
+    background-color: #ddd;
 }

@@ -4,7 +4,7 @@ body{
     grid-template-columns: 7% 1fr 1fr 1fr 7%;
     grid-template-areas: 
     " header header header header header "
-    " . img img img ."
+    " . img-d img img ."
     ". vid vid vid-d ."
     ". map-d map map ."
     ". . . . ."
@@ -46,6 +46,11 @@ body section{
 
 #img-gallary{
     grid-area: img;
+    background-color: #ddd;
+}
+
+#img-text{
+    grid-area: img-d;
     background-color: #ddd;
 }
 

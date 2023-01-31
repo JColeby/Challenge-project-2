@@ -9,7 +9,9 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  height: 400px;
 }
+
 
 .prev, .next {
   cursor: pointer;

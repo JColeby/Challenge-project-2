@@ -3,14 +3,21 @@ a {
     text-decoration: none;
   }
   
-  nav {
+header{
+    height:135px
+}
+
+nav {
     font-family: monospace;
     width: 100%;
+    position: relative;
+    height:65px;
+    background: #f2c53d;
   }
 
 
 #nav > .menu-item{
-    width: 25%;
+    width: 20%;
     text-align: center;
     display: flex;
     background-color: white;
@@ -29,10 +36,15 @@ a {
     background: #f2c53d;
     display: block;
     float: left;
-    padding: 1rem 0;
+    padding:  0;
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+  }
+
+  #nav >.menu-item ul li{
+    padding:25px 0;
+    
   }
     
   #nav li a {
@@ -58,7 +70,6 @@ a {
     transition: all 0.5s ease;
     margin-top: 1rem;
     left: 0;
-    display: none;
     padding:auto 0;
   }
   
@@ -68,7 +79,6 @@ a {
   #nav ul li ul:focus {
      visibility: visible;
      opacity: 1;
-     display: block;
   }
   
   #nav ul li ul li {

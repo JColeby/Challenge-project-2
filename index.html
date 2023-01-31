@@ -13,6 +13,7 @@
     <title>website</title>
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="slides.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,7 +90,82 @@
 
 
     <section id="img-gallary">
+        <!-- slideshow images from w3schools -->
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/slides/boats.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/slides/pier68-boats.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/slides/pier68.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/slides/pier68_building.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/slides/sunset_fishing.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/slides/Yamaha.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+        </div>
+            
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+        </script>
     </section>
 
     <section id="video">

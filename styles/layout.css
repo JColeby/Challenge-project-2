@@ -20,6 +20,12 @@ body{
     background-color: #AAA;
 }
 
+#nav{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
 #img-gallary{
     grid-area: img;
     background-color: #AAA;

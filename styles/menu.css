@@ -93,7 +93,8 @@ nav {
     left: 0;
     padding:auto 0;
     width: 100%;
-    margin-top:25px;
+    margin-top:21px;
+    z-index: 2;
   }
   
   #nav ul li:hover > ul,

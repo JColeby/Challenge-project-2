@@ -1,13 +1,13 @@
 body{
     display: grid;
-    grid-template-rows: 200px 500px 400px 400px 200px 75px;
+    grid-template-rows: 200px 500px 400px 400px 200px 1fr;
     grid-template-columns: 7% 1fr 1fr 1fr 7%;
     grid-template-areas: 
     " header header header header header "
     " . img-d img img ."
     ". vid vid vid-d ."
-    ". map-d map-d map ."
-    ". . . . ."
+    ". map-d map map ."
+    ". aud-d aud-d aud ."
     "ft ft ft ft ft"
     ;
     grid-gap:25px;
@@ -72,6 +72,16 @@ body section{
 #map-text{
     grid-area: map-d;
     background-color: #ddd; 
+}
+
+#audio{
+    grid-area: aud;
+    background-color: #ddd;
+}
+
+#audio-text{
+    grid-area: aud-d;
+    background-color: #ddd;
 }
 
 #footer{

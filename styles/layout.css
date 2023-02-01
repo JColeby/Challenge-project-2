@@ -94,7 +94,10 @@ body section{
 
 @media screen and (max-width:1200px){
     body{
-        grid-template-rows: 200px 350px 300px 300px 100px 75px;
+        grid-template-rows: 200px 350px 350px 400px 100px 1fr;
     }
     
+    body section{
+        font-size: .8rem;
+    }
 }

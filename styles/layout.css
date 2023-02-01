@@ -54,6 +54,12 @@ body section{
     background-color: #ddd;
 }
 
+#img-text h3{
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+}
+
 #video{
     grid-area: vid;
     background-color: #ddd;
@@ -72,6 +78,16 @@ body section{
 #map-text{
     grid-area: map-d;
     background-color: #ddd; 
+}
+
+.contact-wrapper p{
+    text-align: center;
+    margin: 0 20px 0 40px;
+}
+
+.contact-wrapper h3{
+    margin:40px 2% 10px 2%;
+    padding: 0;
 }
 
 #audio{

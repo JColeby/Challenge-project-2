@@ -3,3 +3,11 @@
     align-items: center;
     justify-content: center;
 }
+#audio-text {
+    padding: 5px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}

@@ -90,7 +90,9 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-
+.numbertext{
+  visibility: hidden;
+}
 
 @media screen and (max-width:1200px){
   .mySlides img, .slideshow-container{

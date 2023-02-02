@@ -8,20 +8,37 @@ header{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1{
     margin: 0;
-    padding: 49px;
+    padding: 40px;
+    width:250px;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
+    text-align: center;
 }
 
-header .logo{
+header .logo img{
     height: 115px;
     width:175px;
     background-color: #e7b315;
-    margin: 10px 10px 10px 10%;
+    margin: 0;
+    text-align: right;
+}
+
+header .logo{
+  height: 115px;
+    width: auto;
+    margin: 10px 10px 10px 5%;
+    display: flex;
+}
+
+header .boat-img img{
+  height: 115px;
+  margin: 5px 0 5px 5px;
 }
 
 nav {
@@ -32,6 +49,7 @@ nav {
     background: #f2c53d;
     border-bottom: 2px solid #C15879;
     border-top: 2px solid #C15879;
+    
   }
 
 
@@ -59,11 +77,12 @@ nav {
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+    font-weight: 900;
   }
 
   #nav >.menu-item ul li{
     padding:25px 0;
-    
+    font-weight: 1200;
   }
     
   #nav li a {
@@ -112,14 +131,4 @@ nav {
 
   #nav ul li ul li:hover {
     background: #eeb712;
-  }
-
-  #to-top{
-    display: block;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    background-color: blue;
-    bottom:2%;
-    right:2%;
   }

@@ -48,12 +48,12 @@ body section{
 
 #img-gallary{
     grid-area: img;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #img-text{
     grid-area: img-d;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #img-text h3{
@@ -64,22 +64,22 @@ body section{
 
 #video{
     grid-area: vid;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #video-description{
     grid-area: vid-d;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #map{
     grid-area: map;
-    background-color: #ddd; 
+    background-color: #eee; 
 }
 
 #map-text{
     grid-area: map-d;
-    background-color: #ddd; 
+    background-color: #eee; 
 }
 
 .contact-wrapper p{
@@ -94,12 +94,12 @@ body section{
 
 #audio{
     grid-area: aud;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #audio-text{
     grid-area: aud-d;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 #footer{

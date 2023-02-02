@@ -8,10 +8,6 @@
     flex-direction: column;
     margin-top: -4px;
     font-weight: 2;
+    text-align: center;
 
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
 }
